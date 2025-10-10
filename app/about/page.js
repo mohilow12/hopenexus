@@ -102,7 +102,7 @@ export default function AboutPage() {
             data-aos-delay="200"
             className="text-gray-300 text-xl max-w-2xl mx-auto leading-relaxed"
           >
-            We're more than consultants—we're your strategic partners in growth, 
+            We&apos;re more than consultants—we&apos;re your strategic partners in growth, 
             dedicated to turning challenges into opportunities.
           </p>
         </div>
@@ -121,12 +121,12 @@ export default function AboutPage() {
               </p>
               <p className="text-gray-600 text-lg leading-relaxed">
                 What started as a small team of three passionate consultants has grown into 
-                a trusted partner for over 200 businesses. Through every project, we've 
+                a trusted partner for over 200 businesses. Through every project, we&apos;ve
                 maintained our commitment to delivering personalized strategies that drive 
                 real, measurable results.
               </p>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Today, we're proud to be known not just for our expertise, but for the 
+                Today, we&apos;re proud to be known not just for our expertise, but for the 
                 lasting relationships we build and the transformative impact we create 
                 for every client we serve.
               </p>
@@ -157,9 +157,9 @@ export default function AboutPage() {
           </div>
           
           <h2 className="text-4xl lg:text-5xl font-bold text-[#0f2b3d] leading-tight max-w-4xl mx-auto">
-            "To empower businesses with strategic insights and actionable solutions 
+            &apos;To empower businesses with strategic insights and actionable solutions 
             that drive <span className="text-[#F5A623]">sustainable growth</span> and 
-            lasting success."
+            lasting success.&apos;
           </h2>
           
           <p className="text-gray-600 text-lg max-w-3xl mx-auto">
@@ -260,7 +260,7 @@ export default function AboutPage() {
           </h2>
           
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            Let's discuss how we can help you overcome challenges, seize opportunities, 
+            Let&apos;s discuss how we can help you overcome challenges, seize opportunities, 
             and achieve your business goals.
           </p>
 

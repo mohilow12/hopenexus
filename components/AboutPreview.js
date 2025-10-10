@@ -86,7 +86,7 @@ export default function AboutPreview() {
           <div className="text-center space-y-3">
             <h3 className="text-5xl lg:text-6xl font-bold text-[#0f2b3d]">$10M+</h3>
             <p className="text-xl font-semibold text-[#0f2b3d]">Revenue Impacted</p>
-            <p className="text-gray-500 text-sm">We've helped businesses unlock millions in growth.</p>
+            <p className="text-gray-500 text-sm">We&apos;ve helped businesses unlock millions in growth.</p>
           </div>
         </div>
       </div>

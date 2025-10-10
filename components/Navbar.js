@@ -108,7 +108,7 @@ export default function Navbar() {
               <div className="w-5 h-5 rounded-full bg-[#0f2b3d] flex items-center justify-center">
                 <ArrowRight className="w-3 h-3 text-[#F5A623] group-hover:translate-x-0.5 transition-transform" />
               </div>
-              <span>Let's Talk</span>
+              <span>Let&apos;s Talk</span>
             </Link>
           </div>
 
@@ -156,7 +156,7 @@ export default function Navbar() {
             onClick={() => setIsOpen(false)}
             className="block mt-4 px-6 py-3 bg-[#F5A623] text-[#0f2b3d] font-semibold rounded-full text-center hover:bg-[#ffb340] transition-all duration-300"
           >
-            Let's Talk
+            Let&apos;s Talk
           </Link>
         </div>
       </div>

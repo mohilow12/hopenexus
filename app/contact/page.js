@@ -69,11 +69,11 @@ export default function ContactPage() {
           </div>
           
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight px-4">
-            Let's Start a <span className="italic font-light text-[#F5A623]">Conversation</span>
+            Let&apos;s Start a <span className="italic font-light text-[#F5A623]">Conversation</span>
           </h1>
           
           <p className="text-gray-300 text-base sm:text-lg lg:text-xl max-w-2xl mx-auto leading-relaxed px-4">
-            Have a question or ready to begin your journey with us? We're here to help 
+            Have a question or ready to begin your journey with us? We&apos;re here to help 
             and excited to hear from you.
           </p>
         </div>
@@ -93,7 +93,7 @@ export default function ContactPage() {
             {submitStatus === 'success' && (
               <div className="mb-6 p-3 sm:p-4 bg-green-900/30 border border-green-500/50 rounded-xl flex items-start sm:items-center space-x-3 animate-fadeIn">
                 <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 text-green-400 flex-shrink-0 mt-0.5 sm:mt-0" />
-                <p className="text-green-200 font-medium text-sm sm:text-base">Message sent successfully! We'll get back to you soon.</p>
+                <p className="text-green-200 font-medium text-sm sm:text-base">Message sent successfully! We&apos;ll get back to you soon.</p>
               </div>
             )}
 
@@ -227,8 +227,8 @@ export default function ContactPage() {
           </h2>
           
           <p className="text-gray-300 text-base sm:text-lg max-w-2xl mx-auto">
-            Whether you're looking for capacity building, equity advocacy, or leadership 
-            mentoring—we're here to help you succeed.
+            Whether you&apos;re looking for capacity building, equity advocacy, or leadership 
+            mentoring—we&apos;re here to help you succeed.
           </p>
         </div>
       </section>

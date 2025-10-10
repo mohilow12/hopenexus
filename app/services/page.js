@@ -266,7 +266,7 @@ export default function ServicesPage() {
                   <Heart className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-white">Authentic Partnership</h3>
-                <p className="text-gray-300">We don't just consult—we collaborate closely to ensure your success.</p>
+                <p className="text-gray-300">We don&apos;t just consult—we collaborate closely to ensure your success.</p>
               </div>
 
               <div className="space-y-3">
