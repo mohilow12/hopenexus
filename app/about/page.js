@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect } from 'react'
-import { ArrowRight, Target, Users, Award, Heart, Shield, Scale, Lightbulb, Globe, TrendingUp, Building } from 'lucide-react'
+import { ArrowRight, Target, Users, Award, Heart, Shield, Scale, Lightbulb, Globe, TrendingUp, Building, UserCircle } from 'lucide-react'
 import Image from 'next/image'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -40,6 +40,24 @@ export default function AboutPage() {
       role: "Consultant",
       image: "/hopenexus4.png",
       bio: "Accomplished entrepreneur with 20+ years in telecommunications, transportation, and community services. Proven track record in operational excellence, organizational growth, and developing innovative service models that advance community access and equity."
+    },
+    {
+      name: "Abdi Ali Maalim ",
+      role: "Consultant",
+      image: "placeholder",
+      bio: "Abdi is a seasoned tax accountant and CEO with 20+ years of experience in tax, audit, and fraud prevention. He leads a successful Seattle-based firm and is a Certified Fraud Examiner and IRS Enrolled Agent."
+    },
+    {
+      name: "Mohamed Hillow",
+      role: "IT and Data Management",
+      image: "placeholder",
+      bio: "Mohamed is a Senior Healthcare Economics Consultant with expertise in health informatics and data analytics. He helps healthcare organizations turn data into insights, improve performance, and support data-driven decisions across clinical and business teams."
+    },
+    {
+      name: "Hassan Arur",
+      role: "Communications and Marketting",
+      image: "placeholder",
+      bio: "Hassan is a journalist-turned-digital content creator who leads communications and marketing at HopeNexus. He crafts clear, authentic messages that connect audiences with the firms mission, turning interest into engagement."
     }
   ]
 
@@ -72,12 +90,12 @@ export default function AboutPage() {
   ]
 
   return (
-    <div className="bg-white">
+    <div className="bg-white overflow-x-hidden">
       {/* Hero Section */}
-      <section className="relative mt-12 py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#0f2b3d] via-[#1a3a4f] to-[#0f2b3d] overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-20 left-20 w-64 h-64 bg-[#2B7A9B] rounded-full blur-3xl" />
-          <div className="absolute bottom-20 right-20 w-96 h-96 bg-[#F5A623] rounded-full blur-3xl" />
+      <section className="relative mt-12 py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#0f2b3d] via-[#1a3a4f] to-[#0f2b3d]">
+        <div className="absolute inset-0 overflow-hidden opacity-10">
+          <div className="absolute top-20 left-10 md:left-20 w-64 h-64 bg-[#2B7A9B] rounded-full blur-3xl" />
+          <div className="absolute bottom-20 right-10 md:right-20 w-96 h-96 bg-[#F5A623] rounded-full blur-3xl" />
         </div>
         
         <div className="relative z-10 max-w-4xl mx-auto text-center space-y-6">
@@ -92,7 +110,7 @@ export default function AboutPage() {
           <h1 
             data-aos="fade-up"
             data-aos-delay="100"
-            className="text-5xl lg:text-6xl font-bold text-white leading-tight"
+            className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight px-4"
           >
             Building Success <span className="italic font-light text-[#F5A623]">Together</span>
           </h1>
@@ -100,7 +118,7 @@ export default function AboutPage() {
           <p 
             data-aos="fade-up"
             data-aos-delay="200"
-            className="text-gray-300 text-xl max-w-2xl mx-auto leading-relaxed"
+            className="text-gray-300 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed px-4"
           >
             We&apos;re more than consultants—we&apos;re your strategic partners in growth, 
             dedicated to turning challenges into opportunities.
@@ -132,7 +150,7 @@ export default function AboutPage() {
               </p>
             </div>
             
-            <div className="lg:w-2/5" data-aos="fade-left">
+            <div className="lg:w-2/5 w-full" data-aos="fade-left">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl h-[350px]">
                 <Image
                   src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80"
@@ -156,13 +174,13 @@ export default function AboutPage() {
             <span className="text-[#2B7A9B] font-semibold text-sm">Our Mission</span>
           </div>
           
-          <h2 className="text-4xl lg:text-5xl font-bold text-[#0f2b3d] leading-tight max-w-4xl mx-auto">
-            &apos;To empower businesses with strategic insights and actionable solutions 
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0f2b3d] leading-tight max-w-4xl mx-auto px-4">
+            &quot;To empower businesses with strategic insights and actionable solutions 
             that drive <span className="text-[#F5A623]">sustainable growth</span> and 
-            lasting success.&apos;
+            lasting success.&quot;
           </h2>
           
-          <p className="text-gray-600 text-lg max-w-3xl mx-auto">
+          <p className="text-gray-600 text-lg max-w-3xl mx-auto px-4">
             Every decision we make, every strategy we craft, and every relationship we 
             build is guided by this unwavering commitment to your success.
           </p>
@@ -176,42 +194,49 @@ export default function AboutPage() {
             <h2 className="text-4xl lg:text-5xl font-bold text-[#0f2b3d]">
               Meet Our <span className="text-[#F5A623] italic font-light">Team</span>
             </h2>
-            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+            <p className="text-gray-600 text-lg max-w-2xl mx-auto px-4">
               Experienced professionals united by a passion for driving success.
             </p>
           </div>
 
-          <div className="md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-12 flex md:flex-none overflow-x-auto gap-8 pb-4 snap-x snap-mandatory scrollbar-hide -mx-4 px-4 md:mx-0 md:px-0">
+          {/* Responsive Grid: 2 cols mobile, 3 cols tablet, 4 cols desktop */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
             {teamMembers.map((member, index) => (
               <div
                 key={index}
+                className="group text-center"
                 data-aos="fade-up"
-                data-aos-delay={index * 100}
-                className="group flex-shrink-0 w-[75vw] md:w-auto snap-center text-center"
+                data-aos-delay={index * 50}
               >
-                <div className="relative w-64 h-64 mx-auto mb-6">
+                <div className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mx-auto mb-4 md:mb-6">
                   <div className="absolute inset-0 rounded-full bg-gradient-to-br from-[#F5A623] to-[#2B7A9B] p-1 group-hover:scale-105 transition-transform duration-300">
-                    <div className="w-full h-full rounded-full overflow-hidden bg-white p-1">
-                      <Image
-                        src={member.image}
-                        alt={member.name}
-                        width={400}
-                        height={400}
-                        className="w-full h-full object-cover rounded-full group-hover:scale-110 transition-transform duration-300"
-                      />
-                    </div>
+                    {member.image === "placeholder" ? (
+                      <div className="w-full h-full rounded-full bg-gray-100 flex items-center justify-center">
+                        <UserCircle className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 text-gray-400" strokeWidth={1.5} />
+                      </div>
+                    ) : (
+                      <div className="w-full h-full rounded-full overflow-hidden bg-white p-1">
+                        <Image
+                          src={member.image}
+                          alt={member.name}
+                          width={400}
+                          height={400}
+                          className="w-full h-full object-cover object-top rounded-full group-hover:scale-110 transition-transform duration-300"
+                        />
+                      </div>
+                    )}
                   </div>
                 </div>
                 
-                <div className="space-y-3 px-4">
-                  <h3 className="text-2xl font-bold text-[#0f2b3d] group-hover:text-[#F5A623] transition-colors duration-300">
+                <div className="space-y-2 md:space-y-3 px-2">
+                  <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#0f2b3d] group-hover:text-[#F5A623] transition-colors duration-300">
                     {member.name}
                   </h3>
-                  <p className="text-[#F5A623] font-semibold text-sm uppercase tracking-wide">
+                  <p className="text-[#F5A623] font-semibold text-xs uppercase tracking-wide">
                     {member.role}
                   </p>
-                  <div className="h-1 w-16 bg-[#F5A623] rounded-full mx-auto" />
-                  <p className="text-gray-600 text-sm leading-relaxed max-w-xs mx-auto">
+                  <div className="h-1 w-12 bg-[#F5A623] rounded-full mx-auto" />
+                  <p className="text-gray-600 text-xs sm:text-sm leading-relaxed">
                     {member.bio}
                   </p>
                 </div>
@@ -228,7 +253,7 @@ export default function AboutPage() {
             <h2 className="text-4xl lg:text-5xl font-bold text-[#0f2b3d]">
               Our Core <span className="text-[#F5A623] italic font-light">Values</span>
             </h2>
-            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+            <p className="text-gray-600 text-lg max-w-2xl mx-auto px-4">
               The principles that guide everything we do and every decision we make.
             </p>
           </div>
@@ -255,16 +280,16 @@ export default function AboutPage() {
       {/* CTA Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#0f2b3d] via-[#1a3a4f] to-[#0f2b3d]">
         <div className="max-w-4xl mx-auto text-center space-y-8" data-aos="fade-up">
-          <h2 className="text-4xl lg:text-5xl font-bold text-white leading-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight px-4">
             Ready to Start Your <span className="text-[#F5A623] italic font-light">Growth Journey?</span>
           </h2>
           
-          <p className="text-gray-300 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-300 text-lg max-w-2xl mx-auto px-4">
             Let&apos;s discuss how we can help you overcome challenges, seize opportunities, 
             and achieve your business goals.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center" data-aos="fade-up" data-aos-delay="100">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center px-4" data-aos="fade-up" data-aos-delay="100">
             <button className="group inline-flex items-center space-x-3 px-6 py-3 bg-[#F5A623] text-[#0f2b3d] font-bold rounded-full hover:bg-[#ffb340] hover:shadow-lg hover:shadow-[#F5A623]/30 transition-all duration-300">
               <span>Get Started</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
