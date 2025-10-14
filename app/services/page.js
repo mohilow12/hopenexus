@@ -289,7 +289,7 @@ export default function ServicesPage() {
                   <Heart className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-lg sm:text-xl font-bold text-white">Authentic Partnership</h3>
-                <p className="text-gray-300 text-sm sm:text-base">We don't just consult—we collaborate closely to ensure your success.</p>
+                <p className="text-gray-300 text-sm sm:text-base">We don&apos;t just consult—we collaborate closely to ensure your success.</p>
               </div>
 
               <div className="space-y-3 px-4">
@@ -312,7 +312,7 @@ export default function ServicesPage() {
           </h2>
           
           <p className="text-gray-300 text-base sm:text-lg max-w-2xl mx-auto px-4">
-            Let's discuss how our services can help you achieve your mission and create lasting impact in your community.
+            Let&apos;s discuss how our services can help you achieve your mission and create lasting impact in your community.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center px-4">
