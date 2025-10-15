@@ -2,6 +2,7 @@
 
 import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Footer() {
   const quickLinks = [
@@ -18,14 +19,17 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-16">
           {/* Brand Section */}
           <div className="space-y-6">
-                      <Link href="/" className="flex items-center space-x-2 group">
-            <div className={`rounded-full bg-gradient-to-br from-[#2B7A9B] to-[#F5A623] flex items-center justify-center transition-all group-hover:scale-110`}>
-              <span className={`text-white font-bold transition-all`}>HN</span>
-            </div>
-            <div className="hidden sm:block">
-              <span className={`text-white font-bold transition-all`}>HopeNexus</span>
-            </div>
-          </Link>
+            <Link href="/" className="flex items-center space-x-3 group">
+              <div className="relative w-12 h-12 transition-all group-hover:scale-110">
+                <Image
+                  src="/logo.png"
+                  alt="HopeNexus Logo"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <span className="text-white font-bold text-xl">HopeNexus</span>
+            </Link>
             <p className="text-gray-300 leading-relaxed max-w-sm">
               Our mission is to guide entrepreneurs and businesses with strategic consulting, empowering them to grow with confidence.
             </p>

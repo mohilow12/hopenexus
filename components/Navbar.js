@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { Menu, X, ArrowRight } from 'lucide-react'
 
@@ -65,12 +66,16 @@ export default function Navbar() {
         }`}>
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 group">
-            <div className={`rounded-full bg-gradient-to-br from-[#2B7A9B] to-[#F5A623] flex items-center justify-center transition-all group-hover:scale-110 ${
-              scrolled ? 'w-9 h-9' : 'w-10 h-10'
+            <div className={`relative transition-all group-hover:scale-110 ${
+              scrolled ? 'w-12 h-12' : 'w-14 h-14'
             }`}>
-              <span className={`text-white font-bold transition-all ${
-                scrolled ? 'text-lg' : 'text-xl'
-              }`}>HN</span>
+              <Image
+                src="/logo.png"
+                alt="HopeNexus Logo"
+                fill
+                className="object-contain"
+                priority
+              />
             </div>
             <div className="hidden sm:block">
               <span className={`text-white font-bold transition-all ${

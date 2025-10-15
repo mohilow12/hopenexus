@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  metadataBase: new URL('https://yourcompany.com'), // Replace with your actual domain
+  metadataBase: new URL('https://hopenexus.org'), // Replace with your actual domain
   title: {
     default: 'HopeNexus Consultancy | Business Consultancy in Seattle, WA',
     template: '%s | HopeNexus Consultancy',
