@@ -60,33 +60,53 @@ export default function AboutPreview() {
             </button>
           </div>
         </div>
-                <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                            <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Stat 1 */}
-          <div className="text-center space-y-3">
-            <h3 className="text-5xl lg:text-6xl font-bold text-[#0f2b3d]">12+</h3>
-            <p className="text-xl font-semibold text-[#0f2b3d]">Years in Business</p>
-            <p className="text-gray-500 text-sm">A decade of trusted consulting experience.</p>
+          <div className="text-center space-y-3 group">
+            <div className="relative inline-block">
+              <h3 className="text-5xl lg:text-6xl font-bold bg-gradient-to-br from-[#0f2b3d] to-[#2B7A9B] bg-clip-text text-transparent">
+                160+
+              </h3>
+              <div className="absolute -inset-2 bg-gradient-to-br from-[#F5A623]/20 to-[#2B7A9B]/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            </div>
+            <p className="text-xl font-semibold text-[#0f2b3d]">Years Combined Experience</p>
+            <p className="text-gray-500 text-sm">Deep expertise across our entire team.</p>
           </div>
 
           {/* Stat 2 */}
-          <div className="text-center space-y-3">
-            <h3 className="text-5xl lg:text-6xl font-bold text-[#0f2b3d]">200+</h3>
-            <p className="text-xl font-semibold text-[#0f2b3d]">Projects Delivered</p>
-            <p className="text-gray-500 text-sm">Real-world solutions that achieved measurable results.</p>
+          <div className="text-center space-y-3 group">
+            <div className="relative inline-block">
+              <h3 className="text-5xl lg:text-6xl font-bold bg-gradient-to-br from-[#0f2b3d] to-[#2B7A9B] bg-clip-text text-transparent">
+                8
+              </h3>
+              <div className="absolute -inset-2 bg-gradient-to-br from-[#F5A623]/20 to-[#2B7A9B]/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            </div>
+            <p className="text-xl font-semibold text-[#0f2b3d]">Expert Consultants</p>
+            <p className="text-gray-500 text-sm">Diverse specialists in education, healthcare, finance & more.</p>
           </div>
 
           {/* Stat 3 */}
-          <div className="text-center space-y-3">
-            <h3 className="text-5xl lg:text-6xl font-bold text-[#0f2b3d]">95%</h3>
-            <p className="text-xl font-semibold text-[#0f2b3d]">Client Retention Rate</p>
-            <p className="text-gray-500 text-sm">Our clients come back—and that says everything.</p>
+          <div className="text-center space-y-3 group">
+            <div className="relative inline-block">
+              <h3 className="text-5xl lg:text-6xl font-bold bg-gradient-to-br from-[#0f2b3d] to-[#2B7A9B] bg-clip-text text-transparent">
+                20+
+              </h3>
+              <div className="absolute -inset-2 bg-gradient-to-br from-[#F5A623]/20 to-[#2B7A9B]/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            </div>
+            <p className="text-xl font-semibold text-[#0f2b3d]">Countries Served</p>
+            <p className="text-gray-500 text-sm">Global perspective with local impact.</p>
           </div>
 
           {/* Stat 4 */}
-          <div className="text-center space-y-3">
-            <h3 className="text-5xl lg:text-6xl font-bold text-[#0f2b3d]">$10M+</h3>
-            <p className="text-xl font-semibold text-[#0f2b3d]">Revenue Impacted</p>
-            <p className="text-gray-500 text-sm">We&apos;ve helped businesses unlock millions in growth.</p>
+          <div className="text-center space-y-3 group">
+            <div className="relative inline-block">
+              <h3 className="text-5xl lg:text-6xl font-bold bg-gradient-to-br from-[#0f2b3d] to-[#2B7A9B] bg-clip-text text-transparent">
+                5
+              </h3>
+              <div className="absolute -inset-2 bg-gradient-to-br from-[#F5A623]/20 to-[#2B7A9B]/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            </div>
+            <p className="text-xl font-semibold text-[#0f2b3d]">Ph.D. Level Experts</p>
+            <p className="text-gray-500 text-sm">Academic excellence meets practical application.</p>
           </div>
         </div>
       </div>
