@@ -63,7 +63,7 @@ export default function CTASection() {
             <div className="w-8 h-8 rounded-full bg-[#0f2b3d] flex items-center justify-center">
               <ArrowRight className="w-4 h-4 text-white group-hover:translate-x-1 transition-transform" />
             </div>
-            <span>Let's connect</span>
+            <span>Let&apos;s connect</span>
           </a>
         </div>
       </div>
