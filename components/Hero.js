@@ -13,9 +13,9 @@ export default function Hero() {
           <div className="space-y-6 text-center lg:text-left">
             <div className="space-y-4">
               <h1 className="text-4xl sm:text-5xl lg:text-5xl font-bold text-white leading-tight">
-                Building Equitable Communities Through Expert{' '}
+                Building Stronger, More Resilient{' '}
                 <span className="text-[#F5A623] relative inline-block">
-                  Consulting
+                  Communities
                   <svg className="absolute -bottom-2 left-0 w-full" viewBox="0 0 200 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5 7 Q 50 2, 100 7 T 195 7" stroke="#F5A623" strokeWidth="3" fill="none" strokeLinecap="round"/>
                   </svg>
@@ -23,7 +23,7 @@ export default function Hero() {
               </h1>
               
               <p className="text-base sm:text-lg text-white/80 leading-relaxed max-w-xl">
-                Strategic guidance, smart solutions, and measurable results — built to move your organization forward with confidence.
+                Connecting people, organizations, and systems to create lasting change—guided by equity, accountability, and cultural humility.
               </p>
             </div>
 
@@ -36,7 +36,7 @@ export default function Hero() {
                 <div className="w-5 h-5 rounded-full bg-[#0f2b3d] flex items-center justify-center">
                   <ArrowRight className="w-3 h-3 text-white group-hover:translate-x-0.5 transition-transform" />
                 </div>
-                <span>Book a Consultation</span>
+                <span>Partner With Us</span>
               </Link>
 
               <Link
@@ -82,15 +82,16 @@ export default function Hero() {
           </div>
 
           {/* Right Image - Hidden on mobile */}
-          <div className="relative hidden md:block">
-            <div className="relative rounded-3xl overflow-hidden shadow-2xl">
-              <img
-                src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=800&h=900&fit=crop"
-                alt="Professional consulting session"
-                className="w-full h-[450px] lg:h-[500px] object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#0f2b3d]/40 to-transparent" />
-            </div>
+         <div className="relative hidden md:block">
+  <div className="relative rounded-3xl overflow-hidden shadow-2xl">
+    <img
+      src="https://images.unsplash.com/photo-1677152951816-83cc8ff220fa?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhhcHB5JTIwc29tYWxpJTIwcGVvcGxlfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=900"
+      alt="Group of women sitting together"
+      className="w-full h-[450px] lg:h-[500px] object-cover"
+    />
+    <div className="absolute inset-0 bg-gradient-to-t from-[#0f2b3d]/40 to-transparent" />
+  </div>
+
             
             {/* Floating accent element */}
             <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-[#F5A623] rounded-full opacity-20 blur-3xl" />

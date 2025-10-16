@@ -9,7 +9,6 @@ export default function Footer() {
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
     { name: 'Services', href: '/services' },
-    { name: 'Team', href: '/team' },
     { name: 'Contact', href: '/contact' },
   ]
 
@@ -31,7 +30,7 @@ export default function Footer() {
               <span className="text-white font-bold text-xl">HopeNexus</span>
             </Link>
             <p className="text-gray-300 leading-relaxed max-w-sm">
-              Our mission is to guide entrepreneurs and businesses with strategic consulting, empowering them to grow with confidence.
+              Our mission is a future where every family including immigrants and refugees thrive as equal partners in shaping resilient, inclusive communities.
             </p>
           </div>
 
@@ -75,7 +74,7 @@ export default function Footer() {
             <p className="text-gray-400 text-sm">
               © {new Date().getFullYear()} Hopenexus. All rights reserved.
             </p>
-            <div className="flex items-center space-x-6">
+            {/* <div className="flex items-center space-x-6">
               <Link
                 href="/privacy"
                 className="text-gray-400 hover:text-[#2B7A9B] text-sm transition-colors duration-200"
@@ -88,7 +87,7 @@ export default function Footer() {
               >
                 Terms of Service
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -3,6 +3,7 @@
 import { useEffect } from 'react'
 import { ArrowRight, Users, Heart, Globe, Sparkles, Target, TrendingUp, CheckCircle } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -46,7 +47,7 @@ export default function ServicesPage() {
       icon: Globe,
       title: "Immigrant & Intergenerational Support",
       shortDesc: "We help bridge generational and cultural divides with dialogue, mentoring, and wellness programs that strengthen families and communities.",
-      image: "https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=800&q=80",
+      image: "https://images.unsplash.com/photo-1664874322412-66e589265c15?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fGhhcHB5JTIwc29tYWxpfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=900",
       features: [
         "Cultural integration and adaptation support",
         "Intergenerational dialogue programs",
@@ -59,7 +60,7 @@ export default function ServicesPage() {
       icon: Sparkles,
       title: "Leadership & Youth Mentoring",
       shortDesc: "HopeNexus empowers youth and young adults to become confident, capable leaders through mentorship and tailored programs. By fostering academic success, workforce readiness, and civic engagement, they develop not just skills—but also character, confidence, and a commitment to community. This investment in young people helps shape the next generation of changemakers.",
-      image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80",
+      image: "https://images.unsplash.com/photo-1692638324021-0d2761c6d1b8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGZvcmVzdCUyMHJvYWR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=900",
       features: [
         "One-on-one mentorship programs",
         "Leadership skills development workshops",
@@ -176,10 +177,12 @@ export default function ServicesPage() {
                   {service.shortDesc}
                 </p>
 
-                <button className="group inline-flex items-center space-x-3 px-6 py-3 bg-[#F5A623] text-[#0f2b3d] font-bold rounded-full hover:bg-[#ffb340] hover:shadow-lg hover:shadow-[#F5A623]/30 transition-all duration-300 mt-4">
-                  <span>Learn More</span>
-                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </button>
+                <Link href="/contact">
+                  <button className="group inline-flex items-center space-x-3 px-6 py-3 bg-[#F5A623] text-[#0f2b3d] font-bold rounded-full hover:bg-[#ffb340] hover:shadow-lg hover:shadow-[#F5A623]/30 transition-all duration-300 mt-4">
+                    <span>Learn More</span>
+                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </button>
+                </Link>
               </div>
             </div>
           ))}
@@ -316,15 +319,19 @@ export default function ServicesPage() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center px-4">
-            <button className="group inline-flex items-center space-x-3 px-6 py-3 bg-[#F5A623] text-[#0f2b3d] font-bold rounded-full hover:bg-[#ffb340] hover:shadow-lg hover:shadow-[#F5A623]/30 transition-all duration-300">
-              <span>Get Started</span>
-              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </button>
+            <Link href="/contact">
+              <button className="group inline-flex items-center space-x-3 px-6 py-3 bg-[#F5A623] text-[#0f2b3d] font-bold rounded-full hover:bg-[#ffb340] hover:shadow-lg hover:shadow-[#F5A623]/30 transition-all duration-300">
+                <span>Get Started</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </button>
+            </Link>
             
-            <button className="group inline-flex items-center space-x-3 px-6 py-3 bg-transparent border-2 border-white text-white font-bold rounded-full hover:bg-white hover:text-[#0f2b3d] transition-all duration-300">
-              <span>Schedule Consultation</span>
-              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </button>
+            <Link href="/contact">
+              <button className="group inline-flex items-center space-x-3 px-6 py-3 bg-transparent border-2 border-white text-white font-bold rounded-full hover:bg-white hover:text-[#0f2b3d] transition-all duration-300">
+                <span>Schedule Consultation</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </button>
+            </Link>
           </div>
         </div>
       </section>

@@ -57,7 +57,7 @@ export default function AboutPage() {
     {
       name: "Abdi Ali Maalim, MSA, CFE, EA",
       role: "Consultant",
-      image: "placeholder",
+      image: "/hopenexus5.jpeg",
       shortBio: "Seasoned tax accountant and CEO with 20+ years of experience in tax, audit, and fraud prevention.",
       fullBio: "Seasoned tax accountant and CEO with 20+ years of experience in tax, audit, and fraud prevention. He leads a successful Seattle-based firm and is a Certified Fraud Examiner and IRS Enrolled Agent."
     },
@@ -143,8 +143,7 @@ export default function AboutPage() {
             data-aos-delay="200"
             className="text-gray-300 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed px-4"
           >
-            We&apos;re more than consultants—we&apos;re your strategic partners in growth, 
-            dedicated to turning challenges into opportunities.
+            We strengthen nonprofits, advance equity, support immigrants, and mentor emerging leaders—all rooted in trust and transformative partnership.
           </p>
         </div>
       </section>
@@ -194,13 +193,12 @@ export default function AboutPage() {
         <div className="max-w-5xl mx-auto text-center space-y-8" data-aos="zoom-in">
           <div className="inline-flex items-center space-x-2 px-4 py-2 bg-[#2B7A9B]/10 rounded-full">
             <Target className="w-4 h-4 text-[#2B7A9B]" />
-            <span className="text-[#2B7A9B] font-semibold text-sm">Our Mission</span>
+            <span className="text-[#2B7A9B] font-semibold text-sm">Our Vision</span>
           </div>
           
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0f2b3d] leading-tight max-w-4xl mx-auto px-4">
-            &quot;To empower businesses with strategic insights and actionable solutions 
-            that drive <span className="text-[#F5A623]">sustainable growth</span> and 
-            lasting success.&quot;
+            &quot;A future where every family including immigrants and refugees thrive as
+             <span className="text-[#F5A623]"> equal partners</span> in shaping resilient, inclusive communities..&quot;
           </h2>
           
           <p className="text-gray-600 text-lg max-w-3xl mx-auto px-4">
@@ -344,7 +342,7 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#0f2b3d] via-[#1a3a4f] to-[#0f2b3d]">
+      {/* <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-[#0f2b3d] via-[#1a3a4f] to-[#0f2b3d]">
         <div className="max-w-4xl mx-auto text-center space-y-8" data-aos="fade-up">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight px-4">
             Ready to Start Your <span className="text-[#F5A623] italic font-light">Growth Journey?</span>
@@ -367,7 +365,7 @@ export default function AboutPage() {
             </button>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }

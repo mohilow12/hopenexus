@@ -2,6 +2,7 @@
 
 import { ArrowRight } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function AboutPreview() {
   return (
@@ -12,7 +13,7 @@ export default function AboutPreview() {
           <div className="relative lg:w-1/2 w-full">
             <div className="relative rounded-l-3xl lg:rounded-l-3xl lg:rounded-r-none rounded-3xl overflow-hidden shadow-2xl h-[500px] lg:h-[600px]">
               <Image
-                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=80"
+                src="https://images.unsplash.com/photo-1602181026089-ef2bf4a3e23e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGFwcHklMjBzb21hbGl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=80&w=800"
                 alt="Team meeting discussing strategies"
                 width={800}
                 height={600}
@@ -46,18 +47,18 @@ export default function AboutPreview() {
 
             {/* Description */}
             <p className="text-gray-600 text-lg leading-relaxed">
-              We are driven by a clear mission—to deliver tailored strategies, 
-              actionable insights, and long-term value that empower businesses 
-              to grow with confidence.
+               Our focus is on creating sustainable organizations that align with compliance standards while responding effectively to the unique needs of immigrant and refugee families.
             </p>
 
             {/* CTA Button */}
-            <button className="group inline-flex items-center space-x-3 px-5 py-2.5 bg-[#F5A623] text-[#0f2b3d] font-semibold rounded-full hover:bg-[#ffb340] hover:shadow-lg hover:shadow-[#F5A623]/30 transition-all duration-300">
-              <div className="w-7 h-7 rounded-full bg-[#0f2b3d] flex items-center justify-center">
-                <ArrowRight className="w-3.5 h-3.5 text-white group-hover:translate-x-1 transition-transform" />
-              </div>
-              <span>Learn More</span>
-            </button>
+            <Link href="/about">
+              <button className="group inline-flex items-center space-x-3 px-5 py-2.5 bg-[#F5A623] text-[#0f2b3d] font-semibold rounded-full hover:bg-[#ffb340] hover:shadow-lg hover:shadow-[#F5A623]/30 transition-all duration-300">
+                <div className="w-7 h-7 rounded-full bg-[#0f2b3d] flex items-center justify-center">
+                  <ArrowRight className="w-3.5 h-3.5 text-white group-hover:translate-x-1 transition-transform" />
+                </div>
+                <span>Learn More</span>
+              </button>
+            </Link>
           </div>
         </div>
                             <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
