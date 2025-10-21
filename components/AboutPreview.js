@@ -61,7 +61,7 @@ export default function AboutPreview() {
             </Link>
           </div>
         </div>
-                            <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                            <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Stat 1 */}
           <div className="text-center space-y-3 group">
             <div className="relative inline-block">
@@ -83,7 +83,7 @@ export default function AboutPreview() {
               <div className="absolute -inset-2 bg-gradient-to-br from-[#F5A623]/20 to-[#2B7A9B]/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
             <p className="text-xl font-semibold text-[#0f2b3d]">Expert Consultants</p>
-            <p className="text-gray-500 text-sm">Diverse specialists in education, healthcare, finance & more.</p>
+            <p className="text-gray-500 text-sm">Diverse specialists in education, early childhood, healthcare, finance & more.</p>
           </div>
 
           {/* Stat 3 */}
@@ -99,7 +99,7 @@ export default function AboutPreview() {
           </div>
 
           {/* Stat 4 */}
-          <div className="text-center space-y-3 group">
+          {/* <div className="text-center space-y-3 group">
             <div className="relative inline-block">
               <h3 className="text-5xl lg:text-6xl font-bold bg-gradient-to-br from-[#0f2b3d] to-[#2B7A9B] bg-clip-text text-transparent">
                 5
@@ -108,7 +108,7 @@ export default function AboutPreview() {
             </div>
             <p className="text-xl font-semibold text-[#0f2b3d]">Ph.D. Level Experts</p>
             <p className="text-gray-500 text-sm">Academic excellence meets practical application.</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

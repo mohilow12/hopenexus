@@ -22,8 +22,8 @@ export default function Hero() {
                 </span>
               </h1>
               
-              <p className="text-base sm:text-lg text-white/80 leading-relaxed max-w-xl">
-                Connecting people, organizations, and systems to create lasting change—guided by equity, accountability, and cultural humility.
+              <p className="text-base sm:text-lg mt-8 md:mt-2 text-white/80 leading-relaxed max-w-xl">
+                A consulting organization strengthening systems for organizations serving immigrant and refugee communities.
               </p>
             </div>
 

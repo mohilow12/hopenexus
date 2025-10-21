@@ -66,6 +66,27 @@ export default function Navbar() {
         }`}>
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 group">
+  <div className={`relative transition-all group-hover:scale-110 ${
+    scrolled ? 'w-16 h-16' : 'w-20 h-20'
+  }`}>
+    <Image
+      src="/logo.png"
+      alt="HopeNexus Logo"
+      fill
+      className="object-contain"
+      priority
+    />
+  </div>
+  <div className="hidden sm:block">
+    <span className={`text-white font-bold transition-all ${
+      scrolled ? 'text-lg' : 'text-xl'
+    }`}>HopeNexus</span>
+    <div className="text-yellow-500 font-bold text-[8px]">
+      Empowering Communities, Strengthening Systems
+    </div>
+  </div>
+</Link>
+          {/* <Link href="/" className="flex items-center space-x-2 group">
             <div className={`relative transition-all group-hover:scale-110 ${
               scrolled ? 'w-12 h-12' : 'w-14 h-14'
             }`}>
@@ -82,7 +103,7 @@ export default function Navbar() {
                 scrolled ? 'text-lg' : 'text-xl'
               }`}>HopeNexus</span>
             </div>
-          </Link>
+          </Link> */}
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-1">
