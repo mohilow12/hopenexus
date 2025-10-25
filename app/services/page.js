@@ -20,7 +20,7 @@ export default function ServicesPage() {
     {
       icon: Users,
       title: "Capacity Building for Nonprofits",
-      shortDesc: "HopeNexus strengthens communities by empowering organizations to thrive in complex environments. Through consulting, leadership coaching, and training, they enhance operations, governance, and impact. Their tailored, collaborative approach builds organizational capacity by investing in people, systems, and leadership—enabling nonprofits to grow sustainably and drive lasting community change.",
+      shortDesc: "We strengthen nonprofit organizations through strategic consulting, leadership development, and capacity-building initiatives. Our tailored, people-centered approach enhances operations, governance, and sustainability—so your organization can deliver greater impact and thrive in complex environments.",
       image: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80",
       features: [
         "Strategic planning and organizational development",
@@ -33,7 +33,7 @@ export default function ServicesPage() {
     {
       icon: Heart,
       title: "Equity and Inclusion Advocacy",
-      shortDesc: "Our team champions equity by advising organisations to design policies, programs, and trainings that ensure every voice is heard and valued, especially those from marginalized backgrounds.",
+      shortDesc: "We help organizations design equitable systems, policies, and practices that amplify diverse voices. From inclusive training to organizational assessments, we support long-term culture change that advances fairness and belonging for all.",
       image: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=800&q=80",
       features: [
         "DEI assessments and strategic planning",
@@ -46,7 +46,7 @@ export default function ServicesPage() {
     {
       icon: Globe,
       title: "Immigrant & Intergenerational Support",
-      shortDesc: "We help bridge generational and cultural divides with dialogue, mentoring, and wellness programs that strengthen families and communities.",
+      shortDesc: "We bridge cultural and generational divides through mentorship, dialogue, and wellness initiatives that strengthen families, foster connection, and build cohesive, resilient communities.",
       image: "https://images.unsplash.com/photo-1664874322412-66e589265c15?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fGhhcHB5JTIwc29tYWxpfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=900",
       features: [
         "Cultural integration and adaptation support",
@@ -59,7 +59,7 @@ export default function ServicesPage() {
     {
       icon: Sparkles,
       title: "Leadership & Youth Mentoring",
-      shortDesc: "HopeNexus empowers youth and young adults to become confident, capable leaders through mentorship and tailored programs. By fostering academic success, workforce readiness, and civic engagement, they develop not just skills—but also character, confidence, and a commitment to community. This investment in young people helps shape the next generation of changemakers.",
+      shortDesc: "We equip youth and emerging leaders with the skills, confidence, and purpose to lead change. Through mentorship, career development, and civic engagement programs, we cultivate the next generation of resilient, community-driven changemakers.",
       image: "https://images.unsplash.com/photo-1692638324021-0d2761c6d1b8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGZvcmVzdCUyMHJvYWR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=900",
       features: [
         "One-on-one mentorship programs",
@@ -75,22 +75,22 @@ export default function ServicesPage() {
     {
       step: "01",
       title: "Discovery & Assessment",
-      description: "We start by understanding your unique challenges, goals, and organizational culture."
+      description: "We begin by learning your story—understanding your goals, challenges, and organizational culture."
     },
     {
       step: "02",
       title: "Strategy Development",
-      description: "We create a customized action plan tailored to your specific needs and objectives."
+      description: "We co-create an actionable strategy aligned with your mission, vision, and measurable objectives."
     },
     {
       step: "03",
       title: "Implementation & Support",
-      description: "We work alongside you to execute the strategy, providing guidance every step of the way."
+      description: "We partner closely to implement solutions, providing hands-on support and accountability throughout the process."
     },
     {
       step: "04",
       title: "Evaluation & Growth",
-      description: "We measure outcomes, celebrate wins, and refine approaches for continuous improvement."
+      description: "We track results, share insights, and refine strategies to sustain progress and scale success."
     }
   ]
 
@@ -117,7 +117,7 @@ export default function ServicesPage() {
             data-aos-delay="100"
             className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight px-4"
           >
-            Transformative Solutions for <span className="italic font-light text-[#F5A623]">Lasting Impact</span>
+            Transformative Solutions for <span className="italic font-light text-[#F5A623]">Meaningful, Measurable Impact</span>
           </h1>
           
           <p 
@@ -125,8 +125,7 @@ export default function ServicesPage() {
             data-aos-delay="200"
             className="text-gray-300 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed px-4"
           >
-            From capacity building to youth mentorship, we provide comprehensive support 
-            that empowers organizations and individuals to create meaningful change.
+            From nonprofit development to youth leadership, we deliver customized strategies that empower organizations and individuals to create measurable, lasting change.
           </p>
         </div>
       </section>
@@ -204,7 +203,7 @@ export default function ServicesPage() {
               data-aos-delay="100"
               className="text-gray-600 text-base sm:text-lg max-w-2xl mx-auto px-4"
             >
-              A proven approach that delivers results through collaboration and commitment.
+              Our proven, collaborative framework ensures every partnership delivers results and growth—from first conversation to measurable outcomes.
             </p>
           </div>
 
@@ -284,7 +283,7 @@ export default function ServicesPage() {
                   <Target className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-lg sm:text-xl font-bold text-white">Proven Expertise</h3>
-                <p className="text-gray-300 text-sm sm:text-base">12+ years of specialized experience in nonprofit consulting and community development.</p>
+                <p className="text-gray-300 text-sm sm:text-base">Over 12 years of experience advancing nonprofit capacity, equity, and community development.</p>
               </div>
 
               <div className="space-y-3 px-4">
@@ -292,7 +291,7 @@ export default function ServicesPage() {
                   <Heart className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-lg sm:text-xl font-bold text-white">Authentic Partnership</h3>
-                <p className="text-gray-300 text-sm sm:text-base">We don&apos;t just consult—we collaborate closely to ensure your success.</p>
+                <p className="text-gray-300 text-sm sm:text-base">We co-create solutions with you, ensuring strategies fit your vision and values.</p>
               </div>
 
               <div className="space-y-3 px-4">
@@ -300,7 +299,7 @@ export default function ServicesPage() {
                   <TrendingUp className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-lg sm:text-xl font-bold text-white">Measurable Impact</h3>
-                <p className="text-gray-300 text-sm sm:text-base">Our strategies deliver tangible results that drive real organizational growth.</p>
+                <p className="text-gray-300 text-sm sm:text-base">Our evidence-based approach delivers clear results—helping organizations grow stronger, smarter, and more sustainable.</p>
               </div>
             </div>
           </div>
@@ -315,7 +314,7 @@ export default function ServicesPage() {
           </h2>
           
           <p className="text-gray-300 text-base sm:text-lg max-w-2xl mx-auto px-4">
-            Let&apos;s discuss how our services can help you achieve your mission and create lasting impact in your community.
+            Let&apos;s talk about how HopeNexus can help you strengthen your mission, deepen your impact, and lead lasting community change.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center px-4">

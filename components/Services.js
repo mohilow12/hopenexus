@@ -11,19 +11,19 @@ export default function Services() {
     {
       icon: TrendingUp,
       title: "Capacity Building for Nonprofits",
-      description: "Strengthen your nonprofit's infrastructure, governance, and operational effectiveness to maximize mission impact and sustainability.",
+      description: "Enhance infrastructure, leadership, and data-driven decision-making to grow your mission sustainably and confidently.",
       image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=800&fit=crop"
     },
     {
       icon: Users,
       title: "Equity and Inclusion Advocacy",
-      description: "Build inclusive systems and equitable practices that center diverse voices and create lasting organizational change.",
+      description: "Develop policies and cultures that honor diverse voices, dismantle barriers, and advance systemic equity across your organization.",
       image: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=800&h=800&fit=crop"
     },
     {
       icon: Globe,
       title: "Immigrant & Intergenerational Support",
-      description: "Bridge cultural and generational divides to strengthen community connections and ensure sustainable growth across all ages.",
+      description: "Empower immigrant and multigenerational communities through inclusive engagement, leadership pathways, and cross-cultural understanding.",
       image: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&h=800&fit=crop"
     }
   ]
@@ -44,7 +44,7 @@ export default function Services() {
           </h2>
           
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            We provide strategic solutions designed to empower your organization and accelerate meaningful impact.
+            We deliver tailored strategies that strengthen your organization’s foundation, elevate leadership, and accelerate mission impact.
           </p>
         </div>
 

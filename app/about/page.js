@@ -88,27 +88,27 @@ export default function AboutPage() {
     {
       icon: Shield,
       title: "Integrity",
-      description: "We act with honesty, transparency, and accountability in everything we do."
+      description: "We lead with honesty, transparency, and accountability in every relationship."
     },
     {
       icon: Scale,
       title: "Equity",
-      description: "We work to break down barriers, ensuring fairness, access, and inclusion for all communities."
+      description: "We challenge systemic barriers and expand access—building fairness and inclusion into every solution."
     },
     {
       icon: Users,
       title: "Collaboration",
-      description: "We thrive on partnerships that multiply impact and create meaningful & lasting change."
+      description: "We believe strong partnerships multiply impact and create lasting, community-led change."
     },
     {
       icon: Lightbulb,
       title: "Innovation",
-      description: "We design forward-thinking solutions that respond to real-world challenges with creativity and practicality."
+      description: "We bring fresh thinking to real-world challenges—blending creativity with practical, results-driven solutions."
     },
     {
       icon: Globe,
       title: "Cultural Humility",
-      description: "We honour diverse traditions and perspectives, approaching every community with respect and openness to learn."
+      description: "We honor diverse traditions and perspectives, approaching every community with respect, curiosity, and a commitment to learning."
     }
   ]
 
@@ -143,7 +143,7 @@ export default function AboutPage() {
             data-aos-delay="200"
             className="text-gray-300 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed px-4"
           >
-            We strengthen nonprofits, advance equity, support immigrants, and mentor emerging leaders—all rooted in trust and transformative partnership.
+            We strengthen nonprofits, advance equity, and uplift immigrant and emerging leaders through trust-based, transformative partnerships that turn shared vision into measurable results.
           </p>
         </div>
       </section>
@@ -157,7 +157,7 @@ export default function AboutPage() {
                 Our <span className="text-[#F5A623] italic font-light">Story</span>
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
-                HopeNexus was founded by a group of dedicated professionals who saw first hand the challenges faced by nonprofits and the communities they serve. Recognizing a deep need for culturally responsive guidance, our founders came together with a shared vision: to help organizations grow stronger, more inclusive, and more impactful.
+                HopeNexus began with a simple but powerful idea: that meaningful change happens when equity, culture, and leadership align. Founded by professionals who witnessed first-hand the challenges nonprofits face, we created HopeNexus to provide culturally responsive, equity-driven consulting that helps organizations grow stronger, more inclusive, and sustainable.
               </p>
               {/* <p className="text-gray-600 text-lg leading-relaxed">
                 What started as a small team of three passionate consultants has grown into 
@@ -166,9 +166,7 @@ export default function AboutPage() {
                 real, measurable results.
               </p> */}
               <p className="text-gray-600 text-lg leading-relaxed">
-                Today, we&apos;re proud to be known not just for our expertise, but for the 
-                lasting relationships we build and the transformative impact we create 
-                for every client we serve.
+                Today, we&apos;re recognized for more than expertise—we&apos;re known for the trust we build, the communities we empower, and the lasting transformation we help our partners achieve.
               </p>
             </div>
             
@@ -197,13 +195,12 @@ export default function AboutPage() {
           </div>
           
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0f2b3d] leading-tight max-w-4xl mx-auto px-4">
-            &quot;A future where every family including immigrants and refugees thrive as
+            &quot;A future where every immigrant and refugee family thrives as 
              <span className="text-[#F5A623]"> equal partners</span> in shaping resilient, inclusive communities..&quot;
           </h2>
           
           <p className="text-gray-600 text-lg max-w-3xl mx-auto px-4">
-            Every decision we make, every strategy we craft, and every relationship we 
-            build is guided by this unwavering commitment to your success.
+            Every decision, strategy, and partnership we pursue reflects our commitment to equity, empowerment, and shared success.
           </p>
         </div>
       </section>
@@ -307,7 +304,7 @@ export default function AboutPage() {
               Our Core <span className="text-[#F5A623] italic font-light">Values</span>
             </h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto px-4">
-              The principles that guide everything we do and every decision we make.
+              The guiding principles behind every partnership, program, and piece of progress.
             </p>
           </div>
 

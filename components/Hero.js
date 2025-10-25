@@ -13,17 +13,17 @@ export default function Hero() {
           <div className="space-y-6 text-center lg:text-left">
             <div className="space-y-4">
               <h1 className="text-4xl sm:text-5xl lg:text-5xl font-bold text-white leading-tight">
-                Building Stronger, More Resilient{' '}
+                Transforming Communities Through {' '}
                 <span className="text-[#F5A623] relative inline-block">
-                  Communities
+                  Equity-Driven Action
                   <svg className="absolute -bottom-2 left-0 w-full" viewBox="0 0 200 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5 7 Q 50 2, 100 7 T 195 7" stroke="#F5A623" strokeWidth="3" fill="none" strokeLinecap="round"/>
                   </svg>
                 </span>
               </h1>
               
-              <p className="text-base sm:text-lg mt-8 md:mt-2 text-white/80 leading-relaxed max-w-xl">
-                A consulting organization strengthening systems for organizations serving immigrant and refugee communities.
+              <p className="text-sm sm:text-md mt-8 md:mt-6 text-white/80 leading-relaxed max-w-xl">
+               We partner with nonprofits, public agencies, and community leaders to drive lasting, equitable change—anchored in cultural humility, accountability, and shared purpose.
               </p>
             </div>
 
@@ -76,7 +76,7 @@ export default function Hero() {
               </div>
               <div>
                 <p className="text-white font-semibold">Trusted by 50+</p>
-                <p className="text-[#F5A623] text-sm">Organizations Nationwide</p>
+                <p className="text-[#F5A623] text-sm">Organizations Nationwide and Growing</p>
               </div>
             </div>
           </div>

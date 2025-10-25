@@ -41,13 +41,13 @@ export default function AboutPreview() {
 
             {/* Heading */}
             <h2 className="text-4xl lg:text-5xl font-bold text-[#0f2b3d] leading-tight">
-              The Core Mission Behind{' '}
-              <span className="italic font-light text-[#F5A623]">all Our Work</span>
+              Our Mission{' '}
+              <span className="italic font-light text-[#F5A623]">& Focus</span>
             </h2>
 
             {/* Description */}
             <p className="text-gray-600 text-lg leading-relaxed">
-               Our focus is on creating sustainable organizations that align with compliance standards while responding effectively to the unique needs of immigrant and refugee families.
+               We build organizations that not only meet compliance standards—but thrive through equity, inclusion, and responsiveness to the lived experiences of immigrant and refugee families.
             </p>
 
             {/* CTA Button */}
@@ -71,7 +71,7 @@ export default function AboutPreview() {
               <div className="absolute -inset-2 bg-gradient-to-br from-[#F5A623]/20 to-[#2B7A9B]/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
             <p className="text-xl font-semibold text-[#0f2b3d]">Years Combined Experience</p>
-            <p className="text-gray-500 text-sm">Deep expertise across our entire team.</p>
+            <p className="text-gray-500 text-sm">Our multidisciplinary team brings decades of nonprofit leadership, academic rigor, and cultural insight.</p>
           </div>
 
           {/* Stat 2 */}
@@ -83,7 +83,7 @@ export default function AboutPreview() {
               <div className="absolute -inset-2 bg-gradient-to-br from-[#F5A623]/20 to-[#2B7A9B]/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
             <p className="text-xl font-semibold text-[#0f2b3d]">Expert Consultants</p>
-            <p className="text-gray-500 text-sm">Diverse specialists in education, early childhood, healthcare, finance & more.</p>
+            <p className="text-gray-500 text-sm">Leaders across education, healthcare, and social equity—united by one mission: stronger, more inclusive communities.</p>
           </div>
 
           {/* Stat 3 */}
@@ -95,7 +95,7 @@ export default function AboutPreview() {
               <div className="absolute -inset-2 bg-gradient-to-br from-[#F5A623]/20 to-[#2B7A9B]/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
             <p className="text-xl font-semibold text-[#0f2b3d]">Countries Served</p>
-            <p className="text-gray-500 text-sm">Global perspective with local impact.</p>
+            <p className="text-gray-500 text-sm">Global experience, local partnerships, measurable results.</p>
           </div>
 
           {/* Stat 4 */}
