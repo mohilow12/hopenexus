@@ -56,7 +56,7 @@ export default function Footer() {
           <div className="space-y-6">
             <h3 className="text-xl font-bold text-white">Get In Touch</h3>
             <p className="text-gray-300 leading-relaxed">
-              Ready to transform your business? Let&apos;s start a conversation about your goals and how we can help you achieve them.
+              Ready to transform your organization? Let&apos;s start a conversation about your goals and how we can help you achieve them.
             </p>
             <Link
               href="/contact"
