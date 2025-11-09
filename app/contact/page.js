@@ -213,7 +213,7 @@ export default function ContactPage() {
               </a>
             </p>
             <p className="text-gray-500 text-xs sm:text-sm">
-              We typically respond within 24-48 hours during business days.
+             // We typically respond within 24-48 hours during business days.
             </p>
           </div>
         </div>
