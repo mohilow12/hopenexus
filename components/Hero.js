@@ -81,8 +81,8 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right Image - Hidden on mobile */}
-         <div className="relative hidden md:block">
+          {/* Right Image - Hidden on mobile -updated so it will also show on mobile*/}
+         <div className="relative hidden block">
   <div className="relative rounded-3xl overflow-hidden shadow-2xl">
     <img
       src="https://images.unsplash.com/photo-1677152951816-83cc8ff220fa?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhhcHB5JTIwc29tYWxpJTIwcGVvcGxlfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=900"
