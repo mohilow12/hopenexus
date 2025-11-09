@@ -23,7 +23,9 @@ export default function Hero() {
               </h1>
               
               <p className="text-sm sm:text-md mt-8 md:mt-6 text-white/80 leading-relaxed max-w-xl">
-               We partner with nonprofits, public agencies, and community leaders to drive lasting, equitable change—anchored in cultural humility, accountability, and shared purpose.
+               We partner with nonprofits, government and public agencies, and community leaders to
+drive lasting, equitable change—grounded in cultural humility, accountability, and shared
+purpose.
               </p>
             </div>
 
@@ -51,7 +53,7 @@ export default function Hero() {
             </div>
 
             {/* Social Proof */}
-            <div className="flex items-center space-x-4 pt-4 justify-center lg:justify-start">
+            {/* <div className="flex items-center space-x-4 pt-4 justify-center lg:justify-start">
               <div className="flex -space-x-3">
                 <img
                   src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop"
@@ -78,11 +80,11 @@ export default function Hero() {
                 <p className="text-white font-semibold">Trusted by 50+</p>
                 <p className="text-[#F5A623] text-sm">Organizations Nationwide and Growing</p>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Right Image - Hidden on mobile -updated so it will also show on mobile*/}
-         <div className="relative hidden block">
+         <div className="relative block">
   <div className="relative rounded-3xl overflow-hidden shadow-2xl">
     <img
       src="https://images.unsplash.com/photo-1677152951816-83cc8ff220fa?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhhcHB5JTIwc29tYWxpJTIwcGVvcGxlfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=900"

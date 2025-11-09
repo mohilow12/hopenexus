@@ -33,7 +33,7 @@ export default function AboutPage() {
       shortBio: "Former U.S. Diplomat with 20+ years leading global development programs across Africa, the Middle East, and the U.S.",
       fullBio: "Former U.S. Diplomat with 20+ years leading global development programs across Africa, the Middle East, and the U.S. Specializes in strategic planning, policy reform, and fiscal accountability in education, youth empowerment, and community resilience. Extensive experience in early childhood and refugee resettlement."
     },
-     {
+    {
       name: "Mohamed Mohamud",
       role: "Co-founder & Consultant",
       image: "/hopenexus4.png",
@@ -75,7 +75,7 @@ export default function AboutPage() {
       shortBio: "Journalist-turned-digital content creator who leads communications and marketing at HopeNexus.",
       fullBio: "Journalist-turned-digital content creator who leads communications and marketing at HopeNexus. He crafts clear, authentic messages that connect audiences with the firm's mission, turning interest into engagement."
     },
-       {
+    {
       name: "Asha Handulleh, RN, BSN, RT(R)",
       role: "Consultant",
       image: "/hopenexus8.png",
@@ -120,30 +120,32 @@ export default function AboutPage() {
           <div className="absolute top-20 left-10 md:left-20 w-64 h-64 bg-[#2B7A9B] rounded-full blur-3xl" />
           <div className="absolute bottom-20 right-10 md:right-20 w-96 h-96 bg-[#F5A623] rounded-full blur-3xl" />
         </div>
-        
+
         <div className="relative z-10 max-w-4xl mx-auto text-center space-y-6">
-          <div 
+          <div
             data-aos="fade-down"
             className="inline-flex items-center space-x-2 px-4 py-2 bg-[#F5A623]/20 rounded-full border border-[#F5A623]/30"
           >
             <Building className="w-4 h-4 text-[#F5A623]" />
             <span className="text-[#F5A623] font-medium text-sm">About Us</span>
           </div>
-          
-          <h1 
+
+          <h1
             data-aos="fade-up"
             data-aos-delay="100"
             className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight px-4"
           >
             Building Success <span className="italic font-light text-[#F5A623]">Together</span>
           </h1>
-          
-          <p 
+
+          <p
             data-aos="fade-up"
             data-aos-delay="200"
             className="text-gray-300 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed px-4"
           >
-            We strengthen nonprofits, advance equity, and uplift immigrant and emerging leaders through trust-based, transformative partnerships that turn shared vision into measurable results.
+            We partner with government and nonprofit organizations to build success through equitydriven action—uplifting all communities, including immigrants and emerging leaders,
+            through collaborative, trust-based strategies that turn shared vision into measurable
+            impact.
           </p>
         </div>
       </section>
@@ -169,7 +171,7 @@ export default function AboutPage() {
                 Today, we&apos;re recognized for more than expertise—we&apos;re known for the trust we build, the communities we empower, and the lasting transformation we help our partners achieve.
               </p>
             </div>
-            
+
             <div className="lg:w-2/5 w-full" data-aos="fade-left">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl h-[350px]">
                 <Image
@@ -193,12 +195,12 @@ export default function AboutPage() {
             <Target className="w-4 h-4 text-[#2B7A9B]" />
             <span className="text-[#2B7A9B] font-semibold text-sm">Our Vision</span>
           </div>
-          
+
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0f2b3d] leading-tight max-w-4xl mx-auto px-4">
-            &quot;A future where every immigrant and refugee family thrives as 
-             <span className="text-[#F5A623]"> equal partners</span> in shaping resilient, inclusive communities..&quot;
+            A future where every immigrant and refugee family thrives as
+            <span className="text-[#F5A623]"> equal partners</span> in building resilient, inclusive communities
           </h2>
-          
+
           <p className="text-gray-600 text-lg max-w-3xl mx-auto px-4">
             Every decision, strategy, and partnership we pursue reflects our commitment to equity, empowerment, and shared success.
           </p>
@@ -206,7 +208,7 @@ export default function AboutPage() {
       </section>
 
       {/* Team Grid Section */}
-    {/* Team Grid Section */}
+      {/* Team Grid Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
         {/* Subtle background pattern */}
         <div className="absolute inset-0 opacity-5">
@@ -227,72 +229,72 @@ export default function AboutPage() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
-  {teamMembers.map((member, index) => {
-    const isFeatured = index === 0
-    
-    return (
-      <div
-        key={index}
-        className={`group text-center ${isFeatured ? 'sm:col-span-2 lg:col-span-1' : ''}`}
-        data-aos="fade-up"
-        data-aos-delay={index * 50}
-      >
-        <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 h-full flex flex-col">
-          <div className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-44 md:h-44 mx-auto mb-4">
-            <div className="absolute inset-0 rounded-full bg-gradient-to-br from-[#F5A623] to-[#2B7A9B] p-1 group-hover:scale-105 transition-transform duration-300 group-hover:rotate-6">
-              {member.image === "placeholder" ? (
-                <div className="w-full h-full rounded-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
-                  <UserCircle className="w-20 h-20 sm:w-24 sm:h-24 text-gray-400" strokeWidth={1.5} />
+            {teamMembers.map((member, index) => {
+              const isFeatured = index === 0
+
+              return (
+                <div
+                  key={index}
+                  className={`group text-center ${isFeatured ? 'sm:col-span-2 lg:col-span-1' : ''}`}
+                  data-aos="fade-up"
+                  data-aos-delay={index * 50}
+                >
+                  <div className="bg-white rounded-2xl p-6 shadow-md hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 h-full flex flex-col">
+                    <div className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-44 md:h-44 mx-auto mb-4">
+                      <div className="absolute inset-0 rounded-full bg-gradient-to-br from-[#F5A623] to-[#2B7A9B] p-1 group-hover:scale-105 transition-transform duration-300 group-hover:rotate-6">
+                        {member.image === "placeholder" ? (
+                          <div className="w-full h-full rounded-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
+                            <UserCircle className="w-20 h-20 sm:w-24 sm:h-24 text-gray-400" strokeWidth={1.5} />
+                          </div>
+                        ) : (
+                          <div className="w-full h-full rounded-full overflow-hidden bg-white p-1">
+                            <Image
+                              src={member.image}
+                              alt={member.name}
+                              width={400}
+                              height={400}
+                              className="w-full h-full object-cover object-top rounded-full group-hover:scale-110 transition-transform duration-500"
+                            />
+                          </div>
+                        )}
+                      </div>
+                    </div>
+
+                    <div className="space-y-3 flex-grow flex flex-col">
+                      <div className="min-h-[80px] flex flex-col justify-center">
+                        <h3 className="text-lg md:text-xl font-bold text-[#0f2b3d] group-hover:text-[#2B7A9B] transition-colors duration-300">
+                          {member.name}
+                        </h3>
+                      </div>
+
+                      <p className="text-[#F5A623] font-semibold text-xs uppercase tracking-wide">
+                        {member.role}
+                      </p>
+                      <div className="h-1 w-12 bg-gradient-to-r from-[#F5A623] to-[#2B7A9B] rounded-full mx-auto" />
+
+                      <div className="text-gray-600 text-sm leading-relaxed flex-grow">
+                        <p className={`transition-all duration-300 ${expandedBios[index] ? '' : 'line-clamp-3'}`}>
+                          {expandedBios[index] ? member.fullBio : member.shortBio}
+                        </p>
+
+                        <button
+                          onClick={() => toggleBio(index)}
+                          className="mt-3 inline-flex items-center space-x-1 text-[#2B7A9B] hover:text-[#F5A623] font-semibold text-xs transition-colors duration-200 group/btn"
+                        >
+                          <span>{expandedBios[index] ? 'Read Less' : 'Read More'}</span>
+                          {expandedBios[index] ? (
+                            <ChevronUp className="w-3 h-3 group-hover/btn:-translate-y-0.5 transition-transform" />
+                          ) : (
+                            <ChevronDown className="w-3 h-3 group-hover/btn:translate-y-0.5 transition-transform" />
+                          )}
+                        </button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              ) : (
-                <div className="w-full h-full rounded-full overflow-hidden bg-white p-1">
-                  <Image
-                    src={member.image}
-                    alt={member.name}
-                    width={400}
-                    height={400}
-                    className="w-full h-full object-cover object-top rounded-full group-hover:scale-110 transition-transform duration-500"
-                  />
-                </div>
-              )}
-            </div>
+              )
+            })}
           </div>
-          
-          <div className="space-y-3 flex-grow flex flex-col">
-            <div className="min-h-[80px] flex flex-col justify-center">
-              <h3 className="text-lg md:text-xl font-bold text-[#0f2b3d] group-hover:text-[#2B7A9B] transition-colors duration-300">
-                {member.name}
-              </h3>
-            </div>
-            
-            <p className="text-[#F5A623] font-semibold text-xs uppercase tracking-wide">
-              {member.role}
-            </p>
-            <div className="h-1 w-12 bg-gradient-to-r from-[#F5A623] to-[#2B7A9B] rounded-full mx-auto" />
-            
-            <div className="text-gray-600 text-sm leading-relaxed flex-grow">
-              <p className={`transition-all duration-300 ${expandedBios[index] ? '' : 'line-clamp-3'}`}>
-                {expandedBios[index] ? member.fullBio : member.shortBio}
-              </p>
-              
-              <button
-                onClick={() => toggleBio(index)}
-                className="mt-3 inline-flex items-center space-x-1 text-[#2B7A9B] hover:text-[#F5A623] font-semibold text-xs transition-colors duration-200 group/btn"
-              >
-                <span>{expandedBios[index] ? 'Read Less' : 'Read More'}</span>
-                {expandedBios[index] ? (
-                  <ChevronUp className="w-3 h-3 group-hover/btn:-translate-y-0.5 transition-transform" />
-                ) : (
-                  <ChevronDown className="w-3 h-3 group-hover/btn:translate-y-0.5 transition-transform" />
-                )}
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    )
-  })}
-</div>
         </div>
       </section>
 

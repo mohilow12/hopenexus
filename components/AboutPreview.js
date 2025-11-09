@@ -94,7 +94,7 @@ export default function AboutPreview() {
               </h3>
               <div className="absolute -inset-2 bg-gradient-to-br from-[#F5A623]/20 to-[#2B7A9B]/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
-            <p className="text-xl font-semibold text-[#0f2b3d]">Countries Served</p>
+            <p className="text-xl font-semibold text-[#0f2b3d]">Countries experienced</p>
             <p className="text-gray-500 text-sm">Global experience, local partnerships, measurable results.</p>
           </div>
 

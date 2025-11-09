@@ -19,8 +19,8 @@ export default function ServicesPage() {
   const services = [
     {
       icon: Users,
-      title: "Capacity Building for Nonprofits",
-      shortDesc: "We strengthen nonprofit organizations through strategic consulting, leadership development, and capacity-building initiatives. Our tailored, people-centered approach enhances operations, governance, and sustainability—so your organization can deliver greater impact and thrive in complex environments.",
+      title: "Capacity Building for Government and Nonprofit Organizations",
+      shortDesc: "We strengthen government and nonprofit organizations through strategic consulting,leadership development, and capacity-building initiatives. Our tailored, people-centered approach enhances operations, governance, and sustainability—so your organization can deliver greater impact and thrive in complex, evolving communities.",
       image: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80",
       features: [
         "Strategic planning and organizational development",
@@ -102,30 +102,32 @@ export default function ServicesPage() {
           <div className="absolute top-20 left-10 md:left-20 w-64 h-64 bg-[#2B7A9B] rounded-full blur-3xl" />
           <div className="absolute bottom-20 right-10 md:right-20 w-96 h-96 bg-[#F5A623] rounded-full blur-3xl" />
         </div>
-        
+
         <div className="relative z-10 max-w-4xl mx-auto text-center space-y-6">
-          <div 
+          <div
             data-aos="fade-down"
             className="inline-flex items-center space-x-2 px-4 py-2 bg-[#F5A623]/20 rounded-full border border-[#F5A623]/30"
           >
             <Target className="w-4 h-4 text-[#F5A623]" />
             <span className="text-[#F5A623] font-medium text-sm">Our Services</span>
           </div>
-          
-          <h1 
+
+          <h1
             data-aos="fade-up"
             data-aos-delay="100"
             className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight px-4"
           >
             Transformative Solutions for <span className="italic font-light text-[#F5A623]">Meaningful, Measurable Impact</span>
           </h1>
-          
-          <p 
+
+          <p
             data-aos="fade-up"
             data-aos-delay="200"
             className="text-gray-300 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed px-4"
           >
-            From nonprofit development to youth leadership, we deliver customized strategies that empower organizations and individuals to create measurable, lasting change.
+            From organizational development to youth leadership, we deliver customized strategies
+            that empower government and nonprofit partners to serve all communities—including
+            immigrants and refugees—and create measurable, lasting change.
           </p>
         </div>
       </section>
@@ -137,9 +139,8 @@ export default function ServicesPage() {
             <div
               key={index}
               data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
-              className={`flex flex-col ${
-                index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'
-              } items-center gap-8 lg:gap-12`}
+              className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'
+                } items-center gap-8 lg:gap-12`}
             >
               {/* Image */}
               <div className="w-full lg:w-1/2">
@@ -192,13 +193,13 @@ export default function ServicesPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 lg:mb-20 space-y-4">
-            <h2 
+            <h2
               data-aos="fade-up"
               className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0f2b3d] px-4"
             >
               Our <span className="text-[#F5A623] italic font-light">Process</span>
             </h2>
-            <p 
+            <p
               data-aos="fade-up"
               data-aos-delay="100"
               className="text-gray-600 text-base sm:text-lg max-w-2xl mx-auto px-4"
@@ -217,9 +218,8 @@ export default function ServicesPage() {
                   key={index}
                   data-aos="fade-up"
                   data-aos-delay={index * 100}
-                  className={`relative flex flex-col lg:flex-row items-center gap-8 ${
-                    index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'
-                  }`}
+                  className={`relative flex flex-col lg:flex-row items-center gap-8 ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'
+                    }`}
                 >
                   {/* Content Card */}
                   <div className={`w-full lg:w-5/12 ${index % 2 === 0 ? 'lg:text-right' : 'lg:text-left'}`}>
@@ -243,14 +243,14 @@ export default function ServicesPage() {
                     <div className="relative z-10 w-20 h-20 lg:w-24 lg:h-24 bg-gradient-to-br from-[#F5A623] to-[#2B7A9B] rounded-full flex items-center justify-center shadow-2xl border-4 border-white group-hover:scale-110 transition-transform duration-300">
                       <span className="text-white font-bold text-2xl lg:text-3xl">{item.step}</span>
                     </div>
-                    
+
                     {/* Connecting dots */}
                     {index < process.length - 1 && (
                       <div className="hidden lg:block absolute top-full left-1/2 transform -translate-x-1/2 mt-4">
                         <div className="flex flex-col items-center space-y-2">
                           <div className="w-2 h-2 bg-[#2B7A9B] rounded-full animate-pulse" />
-                          <div className="w-2 h-2 bg-[#2B7A9B] rounded-full animate-pulse" style={{animationDelay: '0.2s'}} />
-                          <div className="w-2 h-2 bg-[#2B7A9B] rounded-full animate-pulse" style={{animationDelay: '0.4s'}} />
+                          <div className="w-2 h-2 bg-[#2B7A9B] rounded-full animate-pulse" style={{ animationDelay: '0.2s' }} />
+                          <div className="w-2 h-2 bg-[#2B7A9B] rounded-full animate-pulse" style={{ animationDelay: '0.4s' }} />
                         </div>
                       </div>
                     )}
@@ -276,7 +276,7 @@ export default function ServicesPage() {
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white px-4">
               Why Organizations <span className="text-[#F5A623] italic font-light">Choose Us</span>
             </h2>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
               <div className="space-y-3 px-4">
                 <div className="w-16 h-16 bg-[#F5A623] rounded-2xl flex items-center justify-center mx-auto">
@@ -312,7 +312,7 @@ export default function ServicesPage() {
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight px-4">
             Ready to Transform Your <span className="text-[#F5A623] italic font-light">Organization?</span>
           </h2>
-          
+
           <p className="text-gray-300 text-base sm:text-lg max-w-2xl mx-auto px-4">
             Let&apos;s talk about how HopeNexus can help you strengthen your mission, deepen your impact, and lead lasting community change.
           </p>
@@ -324,7 +324,7 @@ export default function ServicesPage() {
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </button>
             </Link>
-            
+
             <Link href="/contact">
               <button className="group inline-flex items-center space-x-3 px-6 py-3 bg-transparent border-2 border-white text-white font-bold rounded-full hover:bg-white hover:text-[#0f2b3d] transition-all duration-300">
                 <span>Schedule Consultation</span>
