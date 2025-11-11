@@ -36,7 +36,8 @@ export default function ContactPage() {
     setSubmitStatus(null)
 
     try {
-      const result = await emailjs.send(
+      // Send notification email to your team
+      const notificationResult = await emailjs.send(
         'service_0g04zto',
         'template_kta4nkg',
         {
@@ -44,11 +45,22 @@ export default function ContactPage() {
           from_email: formData.email,
           subject: formData.subject,
           message: formData.message,
-          to_email: 'info@hopenexus.org',
         }
       )
+      console.log('Notification email sent:', notificationResult.text)
 
-      console.log('Email sent successfully:', result.text)
+      // Send confirmation email to the user
+      const confirmationResult = await emailjs.send(
+        'service_0g04zto',
+        'template_yduuq2u', // Replace with your confirmation template ID
+        {
+          to_name: formData.name,
+          to_email: formData.email,
+          subject: formData.subject,
+        }
+      )
+      console.log('Confirmation email sent:', confirmationResult.text)
+
       setSubmitStatus('success')
       setFormData({ name: '', email: '', subject: '', message: '' })
       setTimeout(() => setSubmitStatus(null), 5000)
@@ -102,7 +114,7 @@ export default function ContactPage() {
             {submitStatus === 'success' && (
               <div className="mb-6 p-3 sm:p-4 bg-green-900/30 border border-green-500/50 rounded-xl flex items-start sm:items-center space-x-3">
                 <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 text-green-400 flex-shrink-0 mt-0.5 sm:mt-0" />
-                <p className="text-green-200 font-medium text-sm sm:text-base">Message sent successfully! We&apos;ll get back to you soon.</p>
+                <p className="text-green-200 font-medium text-sm sm:text-base">Message sent successfully! Check your email for confirmation. We&apos;ll respond within 24 hours.</p>
               </div>
             )}
 
@@ -212,9 +224,6 @@ export default function ContactPage() {
                 info@hopenexus.org
               </a>
             </p>
-{/*<p className="text-gray-500 text-xs sm:text-sm">
-              We typically respond within 24-48 hours during business days.
-            </p>*/}
           </div>
         </div>
       </section>

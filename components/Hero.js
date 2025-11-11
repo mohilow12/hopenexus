@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { ArrowRight, Play } from 'lucide-react'
 
 export default function Hero() {
@@ -23,7 +24,7 @@ export default function Hero() {
               </h1>
               
               <p className="text-sm sm:text-md mt-8 md:mt-6 text-white/80 leading-relaxed max-w-xl">
-               We partner with nonprofits, government and public agencies, and community leaders to
+               We partner with government, nonprofits and public agencies, and community leaders to
 drive lasting, equitable change—grounded in cultural humility, accountability, and shared
 purpose.
               </p>
@@ -85,14 +86,17 @@ purpose.
 
           {/* Right Image - Hidden on mobile -updated so it will also show on mobile*/}
          <div className="relative block">
-  <div className="relative rounded-3xl overflow-hidden shadow-2xl">
-    <img
-      src="https://images.unsplash.com/photo-1677152951816-83cc8ff220fa?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhhcHB5JTIwc29tYWxpJTIwcGVvcGxlfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=900"
-      alt="Group of women sitting together"
-      className="w-full h-[450px] lg:h-[500px] object-cover"
-    />
-    <div className="absolute inset-0 bg-gradient-to-t from-[#0f2b3d]/40 to-transparent" />
-  </div>
+          <div className="relative rounded-3xl overflow-hidden shadow-2xl h-[450px] lg:h-[500px]">
+            <Image
+              src="/hero.jpeg"
+              alt="Group of women sitting together"
+              fill
+              className="object-cover"
+              priority
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 600px"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0f2b3d]/40 to-transparent" />
+          </div>
 
             
             {/* Floating accent element */}
