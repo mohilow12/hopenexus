@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { ArrowRight, Mail, User, MessageSquare, Briefcase, Send, CheckCircle } from 'lucide-react'
+import Link from 'next/link'
 import emailjs from '@emailjs/browser'
 
 export default function ContactPage() {
@@ -242,6 +243,12 @@ export default function ContactPage() {
           <p className="text-gray-300 text-base sm:text-lg max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">
             Whether you&apos;re looking for capacity building, equity advocacy, or leadership mentoring—we&apos;re here to help you succeed.
           </p>
+          <Link href="/contact">
+              <button className="group inline-flex mt-4 items-center space-x-3 px-6 py-3 bg-transparent border-2 border-white text-white font-bold rounded-full hover:bg-white hover:text-[#0f2b3d] transition-all duration-300">
+                <span>Free Consultation</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </button>
+            </Link>
         </div>
       </section>
     </div>
