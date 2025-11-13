@@ -197,7 +197,7 @@ export default function AboutPage() {
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0f2b3d] leading-tight max-w-4xl mx-auto px-4">
-            A future where every family immigrant and refugee family thrives as
+            A future where every family, including immigrant and refugee family thrives as
             <span className="text-[#F5A623]"> equal partners</span> in building resilient, inclusive communities.
           </h2>
 
