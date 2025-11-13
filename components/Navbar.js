@@ -78,7 +78,7 @@ export default function Navbar() {
       priority
     />
   </div>
-  <div className="hidden sm:block">
+  <div className="block">
     <span className={`text-white font-bold transition-all ${
       scrolled ? 'text-lg' : 'text-xl'
     }`}>HopeNexus</span>
