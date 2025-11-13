@@ -24,7 +24,7 @@ export default function Hero() {
               </h1>
               
               <p className="text-sm sm:text-md mt-8 md:mt-6 text-white/80 leading-relaxed max-w-xl">
-               We partner with government, nonprofits and public agencies, and community leaders to
+               We partner with government agencies, nonprofits, public institutions and community leaders to
 drive lasting, equitable change—grounded in cultural humility, accountability, and shared
 purpose.
               </p>
