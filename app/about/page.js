@@ -159,7 +159,7 @@ export default function AboutPage() {
                 Our <span className="text-[#F5A623] italic font-light">Story</span>
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed">
-                HopeNexus began with a simple but powerful idea: that meaningful change happens when equity, culture, and leadership align. Founded by professionals who witnessed first-hand the challenges nonprofits face, we created HopeNexus to provide culturally responsive, equity-driven consulting that helps organizations grow stronger, more inclusive, and sustainable.
+                HopeNexus began with a simple but powerful idea: that meaningful change happens when equity, culture, vision, and leadership align. Founded by professionals who witnessed first-hand the challenges human service agencies, including  nonprofits face, we created HopeNexus to provide culturally responsive, equity-driven consulting that helps organizations grow stronger, more inclusive, and sustainable.
               </p>
               {/* <p className="text-gray-600 text-lg leading-relaxed">
                 What started as a small team of three passionate consultants has grown into 
@@ -197,7 +197,7 @@ export default function AboutPage() {
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0f2b3d] leading-tight max-w-4xl mx-auto px-4">
-            A future where every immigrant and refugee family thrives as
+            A future where every family immigrant and refugee family thrives as
             <span className="text-[#F5A623]"> equal partners</span> in building resilient, inclusive communities.
           </h2>
 
