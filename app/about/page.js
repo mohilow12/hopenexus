@@ -143,7 +143,7 @@ export default function AboutPage() {
             data-aos-delay="200"
             className="text-gray-300 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed px-4"
           >
-            We partner with government and nonprofit organizations to build success through equitydriven action—uplifting all communities, including immigrants and emerging leaders,
+            We partner with government agencies, public institutions and nonprofit organizations to build success through equity driven action uplifting all communities, including immigrants and emerging leaders,
             through collaborative, trust-based strategies that turn shared vision into measurable
             impact.
           </p>
