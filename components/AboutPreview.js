@@ -47,7 +47,7 @@ export default function AboutPreview() {
 
             {/* Description */}
             <p className="text-gray-600 text-lg leading-relaxed">
-               We build organizations that not only meet compliance standards—but thrive through equity, inclusion, and responsiveness to the lived experiences of immigrant and refugee families.
+               We build organizations that not only meet compliance standards but thrive through equity, inclusion, and responsiveness to the lived experiences of ALL including immigrant and refugee families.
             </p>
 
             {/* CTA Button */}
