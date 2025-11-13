@@ -19,8 +19,8 @@ export default function ServicesPage() {
   const services = [
     {
       icon: Users,
-      title: "Capacity Building for Government and Nonprofit Organizations",
-      shortDesc: "We strengthen government and nonprofit organizations through strategic consulting,leadership development, and capacity-building initiatives. Our tailored, people-centered approach enhances operations, governance, and sustainability—so your organization can deliver greater impact and thrive in complex, evolving communities.",
+      title: "Capacity Building for Government Agencies, Public Institutions and Nonprofit Organizations",
+      shortDesc: "We strengthen government agencies, public institutions, and nonprofit organizations through strategic consulting, leadership development, and capacity-building initiatives. Our tailored, people-centered approach enhances operations, governance, and sustainability so your organization can deliver greater impact and thrive in complex, evolving communities.",
       image: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80",
       features: [
         "Strategic planning and organizational development",
@@ -125,9 +125,7 @@ export default function ServicesPage() {
             data-aos-delay="200"
             className="text-gray-300 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed px-4"
           >
-            From organizational development to youth leadership, we deliver customized strategies
-            that empower government and nonprofit partners to serve all communities—including
-            immigrants and refugees—and create measurable, lasting change.
+            From organizational development to youth leadership, we deliver customized strategies that empower government agencies and nonprofit partners to serve all communities, including immigrants and refugee to create measurable, lasting change.
           </p>
         </div>
       </section>
@@ -204,7 +202,7 @@ export default function ServicesPage() {
               data-aos-delay="100"
               className="text-gray-600 text-base sm:text-lg max-w-2xl mx-auto px-4"
             >
-              Our proven, collaborative framework ensures every partnership delivers results and growth—from first conversation to measurable outcomes.
+              Our proven, collaborative framework ensures every partnership delivers results and growth from first conversation to measurable outcomes.
             </p>
           </div>
 
@@ -283,7 +281,7 @@ export default function ServicesPage() {
                   <Target className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-lg sm:text-xl font-bold text-white">Proven Expertise</h3>
-                <p className="text-gray-300 text-sm sm:text-base">Over 12 years of experience advancing nonprofit capacity, equity, and community development.</p>
+                <p className="text-gray-300 text-sm sm:text-base">over 20 years of federal, state, and nonprofit experience, in building equitable systems and empowering communities to thrive.</p>
               </div>
 
               <div className="space-y-3 px-4">
