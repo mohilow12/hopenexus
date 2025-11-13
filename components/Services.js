@@ -10,7 +10,7 @@ export default function Services() {
   const services = [
     {
       icon: TrendingUp,
-      title: "Capacity Building for Government and Nonprofit Organizations",
+      title: "Capacity Building for Government Agencies, public institutions and Nonprofit Organizations",
       description: "Enhance infrastructure, leadership, and data-driven decision-making to grow your mission sustainably and confidently.",
       image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=800&fit=crop"
     },
