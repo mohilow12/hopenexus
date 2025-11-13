@@ -81,7 +81,7 @@ export default function TeamPage() {
       role: "Consultant",
       image: "/hopenexus8.png",
       shortBio: "Accomplished Registered Nurse and entrepreneur with 20+ years in healthcare leadership across ICU, Oncology, and Medical-Surgical nursing.",
-      fullBio: "Accomplished Registered Nurse and entrepreneur with 20+ years in healthcare leadership across ICU, Oncology, and Medical-Surgical nursing. Founder of All About Kidz LLC childcare center in Lynnwood. Nominated Outstanding Businesswoman of the Year (2025). Active advocate for environmental health equity through The Lead Safe Community Program, bridging healthcare, early education, and community wellness."
+      fullBio: "Accomplished Registered Nurse and entrepreneur with 20+ years in healthcare leadership across ICU, Oncology, and Medical-Surgical nursing. Founder of All About Kidz LLC childcare center. Nominated Outstanding Businesswoman of the Year (2025). Active advocate for environmental health equity through The Lead Safe Community Program, bridging healthcare, early education, and community wellness."
     }
   ]
 
