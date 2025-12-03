@@ -39,7 +39,7 @@ export default function ContactPage() {
     try {
       // Send notification email to your team
       const notificationResult = await emailjs.send(
-        'service_0g04zto',
+        'service_hnymvo6',
         'template_kta4nkg',
         {
           from_name: formData.name,
@@ -52,7 +52,7 @@ export default function ContactPage() {
 
       // Send confirmation email to the user
       const confirmationResult = await emailjs.send(
-        'service_0g04zto',
+        'service_hnymvo6',
         'template_yduuq2u', // Replace with your confirmation template ID
         {
           to_name: formData.name,
